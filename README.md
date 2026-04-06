@@ -29,6 +29,7 @@ The future of SDN is digital, decentralized, and data-driven. We are expanding o
   * **AI-Powered Planning:** Tools like the Schools Database that adapt to student needs.
   * **Transparent Admissions:** Open-source trackers and calculators to demystify the cost and timeline of applications.
   * **Accessible Advising:** Developing "pay what you can" and 100% free on-demand advising modules to replace expensive private consulting.
+  * **Open-Access Leadership:** We publish the Journal of the Health Professional Student Association (JHPSA), providing a peer-reviewed, open-access platform without charging publication fees.
 
 ## Get Involved
 
