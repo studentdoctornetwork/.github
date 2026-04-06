@@ -4,7 +4,7 @@ Welcome to the official GitHub organization for the **Student Doctor Network**. 
 
 ## Our Mission
 
-Our mission is to help students become doctors. We believe that health care is a fundamental right and that the path to a medical career should not be a for-profit venture. We provide a wide range of donor-supported resources to ensure that every student — regardless of financial resources — enters the application process on equal footing.
+Our mission is to help students become doctors. We believe that health care is a fundamental right and that the path to a medical career should not be a for-profit venture. We provide a wide range of donor-supported resources to ensure that every student, regardless of financial resources, enters the application process on equal footing.
 
 ## Nonprofit Status
 
