@@ -28,3 +28,16 @@ Before working here, read the shared SDN harness:
   paths to `studentdoctor.net`.
 - Do not mutate GitHub organization settings or other external profiles unless
   the operator explicitly approves that external change.
+
+## Shared SDN guidance
+
+Read `../sdn-harness/AGENTS.md` for shared product, Design 5, writing,
+safety, and agent coordination rules. STARS owns taxonomy and search contracts.
+
+<!-- sdn-1password-policy:v1 -->
+## Shared 1Password access policy
+
+Before credential-dependent work, read the [shared SDN policy](../sdn-harness/docs/1password-agent-access.md)
+and use the [bounded diagnostic](../1password-manager/scripts/diagnose-1password.py).
+Existing task and environment authorization boundaries remain in force.
+<!-- /sdn-1password-policy -->
