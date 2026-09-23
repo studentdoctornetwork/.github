@@ -1,5 +1,18 @@
 # Repository Instructions
 
+<!-- sdn-deployment-policy:v1 -->
+## Shared deployment policy
+
+Before deployment work, read [the shared SDN deployment policy](../sdn-harness/docs/sdn-deployment-policy.md).
+Schools Database and other Git-managed applications must deploy with hosted
+`git pull --ff-only`, after serving-path, source-drift, and reviewed release-SHA
+checks. Do not copy or extract application source over a hosted checkout or use
+file sync as a fallback. This supersedes conflicting older deployment notes.
+Preserve XenForo Admin CP archive installation and native template workflows.
+If the linked harness is absent, locate the approved sibling `sdn-harness`
+checkout before proceeding. This rule does not authorize production access.
+<!-- /sdn-deployment-policy -->
+
 This repository controls the public Student Doctor Network GitHub organization
 profile.
 
