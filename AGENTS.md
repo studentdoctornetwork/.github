@@ -48,9 +48,30 @@ Read `../sdn-harness/AGENTS.md` for shared product, Design 5, writing,
 safety, and agent coordination rules. STARS owns taxonomy and search contracts.
 
 <!-- sdn-1password-policy:v1 -->
+<!-- sdn-credential-entrypoint:2026-10-12 -->
 ## Shared 1Password access policy
 
-Before credential-dependent work, read the [shared SDN policy](../sdn-harness/docs/1password-agent-access.md)
-and use the [bounded diagnostic](../1password-manager/scripts/diagnose-1password.py).
-Existing task and environment authorization boundaries remain in force.
+Read the [shared SDN policy](../sdn-harness/docs/1password-agent-access.md) at task startup and when its
+revision changes. Use the [bounded diagnostic](../1password-manager/scripts/diagnose-1password.py) only for
+the credential path the task needs or a relevant failure. Locate the approved
+sibling checkouts if either link is unavailable.
+
+Local Git inspection and approved broker calls do not require a 1Password
+SSH probe. Inspect tool permissions before credential-backed work; reuse
+successful evidence within the same task, runtime, operation, host and
+configuration. Record each diagnostic invocation's actual execution context.
+For a local permission denial, use one approved identical bounded check
+outside the sandbox before diagnosing 1Password failure. If unavailable,
+report sandbox-blocked access and signer health not observed.
+
+Keep CLI retrieval, SSH authentication, Git signing, signature verification,
+network access and repository authorization separate. Stop dependent attempts
+after one signing timeout or refusal until operator recovery. Never reset
+shared services, globally override `SSH_AUTH_SOCK`, automate 1Password approval,
+disable signing, change identities, expose credentials, or broaden sandbox
+permissions to work around a failure.
+
+PROD access, including reads, still requires explicit current-task approval.
+Financial access and permission expansion remain unchanged. The prepared
+GitHub App pilot grants no access and does not authorize unattended writes.
 <!-- /sdn-1password-policy -->
